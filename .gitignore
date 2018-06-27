@@ -11,6 +11,12 @@
 
 # IDEs and editors
 /.idea
+.idea/5b2ae45a4919.iml
+.idea/inspectionProfiles/
+.idea/markdown-navigator/
+.idea/modules.xml
+.idea/workspace.xml
+
 .project
 .classpath
 .c9/
@@ -41,3 +47,4 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+

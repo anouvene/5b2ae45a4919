@@ -1,0 +1,9 @@
+<h2>Composant 1</h2>
+<ul (click)="displayDetails($event)">
+  <li *ngFor="let animal of animaux">
+    <span [ngClass]="labelCompo">
+      {{ animal.nom }}
+      <div *ngIf="visible">Langage: {{ animal.parler + ' - Nourriture: ' + animal.manger}}</div>
+    </span>
+  </li>
+</ul>

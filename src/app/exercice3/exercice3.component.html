@@ -1,0 +1,6 @@
+<h2>Composant 3</h2>
+<p *ngIf="statut">{{ p1 }}</p>
+<p *ngIf="!statut">{{ p2 }}</p>
+
+<button type="submit" (click)="statut = !statut">Click me - {{ statut }}</button>
+
